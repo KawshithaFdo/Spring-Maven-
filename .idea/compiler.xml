@@ -2,12 +2,14 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="03_SpringDataJPA" />
         <module name="01_SpringWithMaven" />
+        <module name="03_SpringDataJPA" />
+        <module name="04_Model_Mapper" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
